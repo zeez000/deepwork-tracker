@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #e8edf7;
+  background: #0b1120;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  padding: 11px 18px;
+  border: 1px solid #34415d;
+  border-radius: 10px;
+  background: #1b2740;
+  color: #eef2ff;
+  cursor: pointer;
+  transition: background 150ms ease, border-color 150ms ease;
+}
+
+button:hover:not(:disabled) {
+  background: #273654;
+  border-color: #8395bd;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #a5b4fc;
+  outline-offset: 3px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #34415d;
+  border-radius: 10px;
+  background: #0d1628;
+  color: #e8edf7;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #91a0bc;
+}
+
+textarea {
+  resize: vertical;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: -0.05em;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  margin-bottom: 0;
+  overflow-wrap: anywhere;
+}
+
+p {
+  line-height: 1.6;
+}

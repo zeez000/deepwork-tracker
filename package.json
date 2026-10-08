@@ -1,0 +1,23 @@
+{
+  "name": "deepwork-tracker",
+  "version": "1.0.0",
+  "description": "A session tracker built with FastAPI, SQLite, SQLAlchemy, Alembic,\r React, and Axios. Includes a Python SDK generated using OpenAPI\r Generator CLI.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true,
+  "overrides": {
+    "basic-ftp": "6.2.2"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "2.41.0"
+  }
+}

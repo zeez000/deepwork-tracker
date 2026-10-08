@@ -1,0 +1,32 @@
+# Python environments and caches
+env/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Local database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Node dependencies and frontend build
+node_modules/
+frontend/dist/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+npm-audit.json
